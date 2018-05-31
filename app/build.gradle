@@ -1,6 +1,13 @@
+
+plugins {
+    id "org.sonarqube" version "2.6.1"
+}
+
+
 apply plugin: 'com.android.application'
 apply plugin: 'jacoco'
 apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: "org.sonarqube"
 
 repositories {
     maven { url "https://mint.splunk.com/gradle/" }
